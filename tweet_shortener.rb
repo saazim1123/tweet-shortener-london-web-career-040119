@@ -27,7 +27,7 @@ def word_substituter(tweet)
       tweet_one_short << "u"
       
     else
-      words << word
+      tweet_one_short << word
     end
   end
   words.join(" ")
