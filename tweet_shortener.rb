@@ -24,7 +24,7 @@ def word_substituter(tweet)
       tweet_one_short << "@"
       
     when "you" 
-      words << "u"
+      tweet_one_short << "u"
       
     else
       words << word
