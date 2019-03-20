@@ -30,6 +30,6 @@ def word_substituter(tweet)
       tweet_one_short << word
     end
   end
-    tweet_one_short.join(" ")
+    tweet_one_short.join(" ") # Convert the array back into a string format
   
 end
