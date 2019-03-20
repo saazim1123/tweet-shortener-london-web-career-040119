@@ -30,6 +30,6 @@ def word_substituter(tweet)
       tweet_one_short << word
     end
   end
-  words.join(" ")
+  tweet_one_short.join(" ")
   
 end
