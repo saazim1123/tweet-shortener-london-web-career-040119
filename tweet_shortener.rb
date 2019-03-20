@@ -9,8 +9,8 @@
 =end
 
 def word_substituter(tweet)
-  words = []
-  tweet_one = tweet.split(" ")
+  words = [] #Empty array to push the tweet in
+  tweet_one = tweet.split(" ") #Variable is created to 
   tweet_one.each do |word|
     case word.downcase
     
@@ -23,7 +23,13 @@ def word_substituter(tweet)
     when "at"
       words << "@"
       
+    when "you" 
+      words << "u"
+      
+    else
+      words << word
     end
   end
+  words.join(" ")
   
 end
