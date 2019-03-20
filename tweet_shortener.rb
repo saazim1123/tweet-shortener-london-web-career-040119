@@ -15,13 +15,13 @@ def word_substituter(tweet)
     case word.downcase
     
     when "to"
-      words << "2"
+      tweet_one_short << "2"
       
     when "be"
-      words << "b"
+      tweet_one_short << "b"
       
     when "at"
-      words << "@"
+      tweet_one_short << "@"
       
     when "you" 
       words << "u"
