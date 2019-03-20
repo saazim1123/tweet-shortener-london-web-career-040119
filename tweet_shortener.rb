@@ -9,9 +9,9 @@
 =end
 
 def word_substituter(tweet)
-  words = [] #Empty array to push the tweet in
-  tweet_one = tweet.split(" ") #Variable is created to 
-  tweet_one.each do |word|
+  tweet_one_short = [] #Empty array to push the tweet in
+  tweet_one = tweet.split(" ") #Variable is created to convert the tweet into an array
+  tweet_one.each do |word| #Iteration is needed to convert the words into shortform
     case word.downcase
     
     when "to"
