@@ -33,3 +33,6 @@ def word_substituter(tweet)
     tweet_one_short.join(" ") # Convert the array back into a string format
   
 end
+
+
+def bulk_tweet_shortener
